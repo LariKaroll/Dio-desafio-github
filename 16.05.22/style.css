@@ -1,0 +1,103 @@
+*{
+    margin: auto;
+    border: 0 auto;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+table{
+    padding-left: 7px
+}
+
+ tr, th {
+    border: 1px solid rgb(121, 14, 122);
+    padding: 2px;
+    border-radius: 5px;
+    background-color: rgb(121, 14, 122);
+    float: left;
+    text-align: center;
+}
+
+#web-top {
+    padding: 5px;
+    background-color: rgb(32, 16, 65);
+    width: 100%;
+    display: inline-flex;
+    
+}
+
+#web-top p {
+    color: rgb(121, 14, 122);
+    text-align: center;
+    font-size: 25px;
+    display: inline-block;
+}
+
+#menu-h{
+    background-color: rgb(12, 139, 165);
+}
+
+#menu-h ul{
+    max-width: 1000px;
+    padding: 0px;
+    list-style:none; 
+}
+
+#menu-h ul li{
+    display: inline;
+}
+
+#menu-h ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    transition: background 1s;
+}
+
+#menu-h ul li a:hover {
+    background-color: rgb(22, 11, 116);
+}
+
+#menu-h ul li:last-child a{
+    background-color: rgb(22, 11, 116);
+}
+
+#icon{
+    background-color: rgb(68, 68, 135); 
+    display: inline-fle;
+    width: 100%;
+}
+
+#icon img{
+    height: 150px;
+    width: 150px; 
+}
+
+
+#menu-h2 {
+    background-color: rgb(48, 162, 149);
+}
+
+#menu-h2 ul {
+    max-width: 1000px;
+    padding: 0;
+    list-style: none;
+}
+
+#menu-h2 ul li {
+    display: inline;
+}
+
+#menu-h2 ul li a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    color: whitesmoke;
+    transition: background 1s;
+}
+
+#menu-h2 ul li a:hover{
+    background-color: blue;
+
+}
