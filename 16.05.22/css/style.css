@@ -9,7 +9,7 @@ table{
     padding-left: 7px
 }
 
- tr, th {
+tr, th {
     border: 1px solid rgb(121, 14, 122);
     padding: 2px;
     border-radius: 5px;
@@ -63,10 +63,21 @@ table{
     background-color: rgb(22, 11, 116);
 }
 
-#icon{
+.cabe{
     background-color: rgb(68, 68, 135); 
-    display: inline-fle;
     width: 100%;
+}
+
+#icon
+{
+
+}
+
+#busca{
+    display: inline-block;
+}
+#busca form input{
+    display: inline;
 }
 
 #icon img{
@@ -101,3 +112,4 @@ table{
     background-color: blue;
 
 }
+
