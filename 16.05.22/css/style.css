@@ -5,6 +5,9 @@
     padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
+body{
+    background-color: rgb(214, 241, 241);
+}
 table{
     padding-left: 7px
 }
@@ -66,18 +69,42 @@ tr, th {
 .cabe{
     background-color: rgb(68, 68, 135); 
     width: 100%;
+    display: inline-block;
 }
 
 #icon
 {
-
+    display: inline-block;
+    margin-left: 180px;
 }
 
 #busca{
     display: inline-block;
+    margin-left: 50px;
+    
 }
-#busca form input{
-    display: inline;
+
+input{
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
+    transition: 1s;
+}
+
+.search{
+    background: #fff;
+    width: 220px;
+    height: 25px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 25px 0 0 25px;
+}
+.enviar{
+    position: relative;
+    border-radius: 0 25px 25px 0;
+    background-color: rgb(143, 133, 184);
 }
 
 #icon img{
@@ -103,13 +130,17 @@ tr, th {
 #menu-h2 ul li a{
     text-decoration: none;
     display: inline-block;
-    padding: 10px;
+    padding: 5px;
     color: whitesmoke;
-    transition: background 1s;
+    transition: background 0.2s;
 }
 
 #menu-h2 ul li a:hover{
     background-color: blue;
 
+}
+
+.corpo{
+    
 }
 
