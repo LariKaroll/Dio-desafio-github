@@ -1,146 +1,49 @@
-*{
-    margin: auto;
-    border: 0 auto;
-    box-sizing: border-box;
+:root {
+    --cor-fundo: rgb(48, 162, 149);
+    --cor-hover: blue;
+    --cor-primaria: rgb(252, 252, 252);
+}
+
+.dp-menu ul {
+    list-style-type: none;
     padding: 0;
-    font-family: 'Open Sans', sans-serif;
-}
-body{
-    background-color: rgb(214, 241, 241);
-}
-table{
-    padding-left: 7px
 }
 
-tr, th {
-    border: 1px solid rgb(121, 14, 122);
-    padding: 2px;
-    border-radius: 5px;
-    background-color: rgb(121, 14, 122);
-    float: left;
-    text-align: center;
+.dp-menu ul {
+    background-color: var(--cor-fundo);
 }
 
-#web-top {
-    padding: 5px;
-    background-color: rgb(32, 16, 65);
-    width: 100%;
-    display: inline-flex;
-    
-}
-
-#web-top p {
-    color: rgb(121, 14, 122);
-    text-align: center;
-    font-size: 25px;
-    display: inline-block;
-}
-
-#menu-h{
-    background-color: rgb(12, 139, 165);
-}
-
-#menu-h ul{
-    max-width: 1000px;
-    padding: 0px;
-    list-style:none; 
-}
-
-#menu-h ul li{
+.dp-menu ul li {
     display: inline;
+    position: relative;
 }
 
-#menu-h ul li a{
+.dp-menu ul li a {
+    color: var(--cor-primaria);
     text-decoration: none;
-    color: white;
+    display: inline-block;
     padding: 10px;
-    display: inline-block;
-    transition: background 1s;
+    transition: background .3s;
 }
 
-#menu-h ul li a:hover {
-    background-color: rgb(22, 11, 116);
+.dp-menu ul li a:hover {
+    background-color: var(--cor-hover);
 }
 
-#menu-h ul li:last-child a{
-    background-color: rgb(22, 11, 116);
+.dp-menu ul ul {
+    display: none;
+    left: 0;
+    position: absolute;
 }
 
-.cabe{
-    background-color: rgb(68, 68, 135); 
-    width: 100%;
-    display: inline-block;
+.dp-menu ul li:hover ul {
+    display: block;
 }
 
-#icon
-{
-    display: inline-block;
-    margin-left: 180px;
+.dp-menu ul ul {
+    width: 150px
 }
 
-#busca{
-    display: inline-block;
-    margin-left: 50px;
-    
+.dp-menu ul ul li a {
+    display: block;
 }
-
-input{
-    position: relative;
-    display: inline-block;
-    font-size: 20px;
-    box-sizing: border-box;
-    transition: 1s;
-}
-
-.search{
-    background: #fff;
-    width: 220px;
-    height: 25px;
-    border: none;
-    outline: none;
-    padding: 0 25px;
-    border-radius: 25px 0 0 25px;
-}
-.enviar{
-    position: relative;
-    border-radius: 0 25px 25px 0;
-    background-color: rgb(143, 133, 184);
-}
-
-#icon img{
-    height: 150px;
-    width: 150px; 
-}
-
-
-#menu-h2 {
-    background-color: rgb(48, 162, 149);
-}
-
-#menu-h2 ul {
-    max-width: 1000px;
-    padding: 0;
-    list-style: none;
-}
-
-#menu-h2 ul li {
-    display: inline;
-}
-
-#menu-h2 ul li a{
-    text-decoration: none;
-    display: inline-block;
-    padding: 5px;
-    color: whitesmoke;
-    transition: background 0.2s;
-}
-
-#menu-h2 ul li a:hover{
-    background-color: blue;
-
-}
-
-.corpo{
-    
-}
-
